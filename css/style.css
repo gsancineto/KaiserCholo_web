@@ -1,0 +1,128 @@
+footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+    background-image: radial-gradient(closest-side,#131313, #282828);
+}
+.title{
+    color:white;
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
+    vertical-align: top;
+}
+a{
+    color: #616cd4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+     
+}
+a:hover{
+    color:aliceblue;
+}
+
+body{
+    background-color: #282828;
+    text-align: center;
+}
+table{
+    background-color: #f887f8;
+    color: #282828;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    color:white;
+    background-color: #616cd4;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    word-spacing: 30px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+.icon:hover{
+    filter:invert(1);
+}
+.logo{
+    width: 25%;
+    height: 25%;
+    vertical-align: middle;
+    transition: transform 0.5s;
+}
+.logo:hover{
+    transform: scale(0.9,0.9);
+}
+.pBody{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dashed{
+    border-top: 3px dashed white;
+    border-bottom: none;
+}
+.padre-flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+#gridDiscografia{
+    display: grid;
+    grid-gap: 5px;
+    align-items: center;
+    align-content: center;
+    grid-template-areas: 
+    "disco1 descripcionDisco1"
+    "descripcionDisco2 disco2"
+    "disco3 descripcionDisco3"
+    "descripcionDisco4 disco4";
+}
+#disco1{
+    grid-area: disco1;
+}
+#disco2{
+    grid-area: disco2;
+}
+#disco3{
+    grid-area: disco3;
+}
+#disco4{
+    grid-area: disco4;
+}
+#descripcionDisco1{
+    grid-area: descripcionDisco1;
+}
+#descripcionDisco2{
+    grid-area: descripcionDisco2;
+}
+#descripcionDisco3{
+    grid-area: descripcionDisco3;
+}
+#descripcionDisco4{
+    grid-area: descripcionDisco4;
+}
+.descripcionDisco{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    transition: transform 1s;
+}
+.descripcionDisco:hover{
+    transform: scale(1.1,1.1);
+}
+
+/* RESPONSIVE MEDIA */
+@media screen and (min-width: 768px ){
+    .descripcionDisco{
+        font-family: 'Nunito', sans-serif;
+        color:#f887f8;
+    }
+}
