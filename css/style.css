@@ -1,14 +1,10 @@
+/* CLASES GLOBALES */
+
 footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
     /* background-color: aliceblue; */
     background-image: radial-gradient(closest-side,#131313, #282828);
-}
-.title{
-    color:white;
-    font-family: 'Staatliches', cursive;
-    font-size: 100px;
-    vertical-align: top;
 }
 a{
     color: #616cd4;
@@ -16,10 +12,6 @@ a{
     font-size: 30px;
      
 }
-a:hover{
-    color:aliceblue;
-}
-
 body{
     background-color: #282828;
     text-align: center;
@@ -37,6 +29,15 @@ form{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* CLASES PARTICULARES */
+
+.title{
+    color:white;
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
+    vertical-align: top;
+}
 .menu{
     list-style-type: none;
     display: inline;
@@ -49,17 +50,11 @@ form{
     height: 25px;
     vertical-align: bottom;
 }
-.icon:hover{
-    filter:invert(1);
-}
 .logo{
     width: 25%;
     height: 25%;
     vertical-align: middle;
     transition: transform 0.5s;
-}
-.logo:hover{
-    transform: scale(0.9,0.9);
 }
 .pBody{
     color:white;
@@ -75,6 +70,29 @@ form{
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
+.descripcionDisco{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    transition: transform 1s;
+}
+
+/* ANIMACION */
+
+a:hover{
+    color:aliceblue;
+}
+.logo:hover{
+    transform: scale(0.9,0.9);
+}
+.icon:hover{
+    filter:invert(1);
+}
+.descripcionDisco:hover{
+    transform: scale(1.1,1.1);
+}
+
+/* ID */
+
 #gridDiscografia{
     display: grid;
     grid-gap: 5px;
@@ -109,20 +127,4 @@ form{
 }
 #descripcionDisco4{
     grid-area: descripcionDisco4;
-}
-.descripcionDisco{
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    transition: transform 1s;
-}
-.descripcionDisco:hover{
-    transform: scale(1.1,1.1);
-}
-
-/* RESPONSIVE MEDIA */
-@media screen and (min-width: 768px ){
-    .descripcionDisco{
-        font-family: 'Nunito', sans-serif;
-        color:#f887f8;
-    }
 }
