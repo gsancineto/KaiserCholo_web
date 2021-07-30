@@ -1,0 +1,28 @@
+$title-text-color: white;
+$title-text-font: 'Raleway', sans-serif ;
+$title-text-size: 30px;
+$body-text-color: white;
+$body-text-font: 'Roboto Slab', serif ;
+$body-text-size: 15px;
+
+
+.show__title{
+    color:$title-text-color;
+    font-family: $title-text-font;
+    font-size: $title-text-size;
+}
+
+.show__text{
+    color: $body-text-color;
+    font-family: $body-text-font;
+    font-size: $body-text-size;
+}
+
+.show__img{
+    width: 25%;
+    height: 25%;
+}
+
+.show__link{
+    color:pink;
+}

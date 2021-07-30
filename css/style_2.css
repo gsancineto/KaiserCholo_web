@@ -1,0 +1,22 @@
+.show__title {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
+
+.show__text {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+}
+
+.show__img {
+  width: 25%;
+  height: 25%;
+}
+
+.show__link {
+  color: pink;
+}
+
+/*# sourceMappingURL=style_2.css.map */
