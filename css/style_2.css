@@ -7,7 +7,7 @@
 .show__text {
   color: white;
   font-family: "Roboto Slab", serif;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .show__img {
@@ -16,7 +16,9 @@
 }
 
 .show__link {
-  color: pink;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style_2.css.map */

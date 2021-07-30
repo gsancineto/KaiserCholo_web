@@ -15,7 +15,7 @@ $body-text-size: 15px;
 .show__text{
     color: $body-text-color;
     font-family: $body-text-font;
-    font-size: $body-text-size;
+    font-size: ($title-text-size / 2) + 10px;
 }
 
 .show__img{
@@ -24,5 +24,7 @@ $body-text-size: 15px;
 }
 
 .show__link{
-    color:pink;
+    color: $body-text-color;
+    font-family: $title-text-font;
+    font-size: ($title-text-size / 2) + 5px;
 }
