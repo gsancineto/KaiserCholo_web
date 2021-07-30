@@ -1,0 +1,24 @@
+{
+  "name": "kaisercholo_web",
+  "version": "1.0.0",
+  "description": "web de kaiser cholo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsancineto/KaiserCholo_web.git"
+  },
+  "keywords": [
+    "kaiser",
+    "cholo"
+  ],
+  "author": "sansiniestro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsancineto/KaiserCholo_web/issues"
+  },
+  "homepage": "https://github.com/gsancineto/KaiserCholo_web#readme",
+  "dependencies": {}
+}
